@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Fruit Slicer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <link rel="stylesheet" type="text/css" href="styling.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+</head>
+
+<body>
+
+<div id="main">    
+<div id="container">
+    <div id="lives">Lives: <img id="i1" src="images/hearts.jfif"><img id="i2" src="images/hearts.jfif"><img id="i3" src="images/hearts.jfif"></div>
+    <div id="score">Score: <span id="scoreline">0</span></div>
+
+<!--
+    <div id="correct">Correct!</div>
+    <div id="wrong">Try Again!</div>
+-->
+
+<!--    <div id="head">The Maths Game</div>-->
+    <div id="gamescreen">
+        <img class="fruit" id="fruit1">
+        <img class="fruit" id="fruit2">
+        <img class="fruit" id="fruit3">
+    </div>
+
+    <div id="intro">Click on Start to Start the Game</div>
+    
+<!--
+    <div id="options">
+        <div id="opt1">1</div>
+        <div id="opt2">2</div>
+        <div id="opt3">3</div>
+        <div id="opt4">4</div>
+    </div>
+-->
+    
+    <div id="start">Start Game</div>
+    
+<!--    <div id="timer">Time Remaining: <span id="timerem">15 sec</span></div>-->
+    
+    <div id="end"></div>
+
+</div>
+</div>
+
+<audio id="knife1">
+    <source src="sounds/knife-slash-1.mp3">
+    <source src="sounds/knife-slash-1.ogg">
+</audio>
+
+<audio id="knife2">
+    <source src="sounds/knife-slash-2.mp3">
+    <source src="sounds/knife-slash-2.ogg">
+</audio>
+
+<audio id="knife3">
+    <source src="sounds/knife-slash-3.mp3">
+    <source src="sounds/knife-slash-3.ogg">
+</audio>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+
+<script src="jquery.js"></script>    
+
+</body>
+
+</html>
